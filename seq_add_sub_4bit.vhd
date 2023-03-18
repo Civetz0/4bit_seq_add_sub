@@ -10,7 +10,7 @@ ENTITY seq_add_sub_4bit IS
 	LEDR9: OUT STD_LOGIC); -- overflow bit
 END seq_add_sub_4bit;
 
-ARCHITECTURE structural OF seq_add_sub4bit_4bit IS
+ARCHITECTURE structural OF seq_add_sub_4bit IS
 SIGNAL a, q1, b, q2, c, q3: SIGNED(3 DOWNTO 0);
 SIGNAL cn, cn1: STD_LOGIC;
 
