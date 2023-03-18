@@ -8,7 +8,7 @@ ENTITY seq_add_sub_4bit IS
 	KEY1: IN STD_LOGIC; -- manual clock input
 	LEDR: OUT STD_LOGIC_VECTOR(3 DOWNTO 0); 
 	LEDR9: OUT STD_LOGIC); -- overflow bit
-END seq_add_sub4bit_4bit;
+END seq_add_sub_4bit;
 
 ARCHITECTURE structural OF seq_add_sub4bit_4bit IS
 SIGNAL a, q1, b, q2, c, q3: SIGNED(3 DOWNTO 0);
